@@ -104,31 +104,6 @@ const json = await res.json();
 setRaw(json);
 Digunakan untuk mengambil data dari MockAPI.io.
 
-🪄 Optimistic Update
-Saat user mengubah status Active/Inactive, aplikasi:
-
-Mengubah UI dulu (tanpa menunggu server) agar terasa cepat.
-
-Mengirim PUT ke API.
-
-Jika gagal, nilai dikembalikan (rollback) dan muncul notifikasi.
-
-🧑‍💻 Tugas Pengembangan untuk Mahasiswa
-Tambahkan kolom baru lightIntensity (number) di MockAPI.io dan tampilkan di kartu sensor.
-
-Buat tombol “Tambah Sensor Dummy” yang menambahkan data baru (POST /sensor).
-
-Buat tampilan Detail Sensor dengan grafik suhu menggunakan react-native-svg (opsional).
-
 📷 Tampilan Aplikasi
-(Tambahkan screenshot aplikasi Expo Go di sini)
+<img width="375" height="710" alt="image" src="https://github.com/user-attachments/assets/d4681d51-5ee8-4e9b-ba75-d2fc526281e3" />
 
-👨‍🏫 Dosen Pengampu
-Workshop Mobile App Development — Semester 5
-Program Studi Informatika / Teknologi Rekayasa Perangkat Lunak
-Dosen: (isi nama dosen kamu)
-Tahun Akademik: 2025/2026
-
-⚖️ Lisensi
-Proyek ini hanya digunakan untuk tujuan pembelajaran dalam lingkungan akademik.
-Tidak untuk distribusi komersial tanpa izin dosen pengampu.
