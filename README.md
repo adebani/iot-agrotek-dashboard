@@ -46,9 +46,6 @@ iot-agrotek-dashboard/
 ├── app.json # Konfigurasi Expo project
 └── README.md # Dokumentasi proyek (file ini)
 
-yaml
-Copy code
-
 ---
 
 ## 🪄 Langkah Instalasi & Menjalankan Aplikasi
@@ -70,8 +67,6 @@ cd iot-agrotek-dashboard
 Salin kode dari file App.js di repositori ini ke dalam project kamu.
 
 4️⃣ Jalankan Aplikasi
-bash
-Copy code
 npx expo start
 Pilih mode Tunnel di Metro bundler.
 
@@ -80,8 +75,6 @@ Scan QR code dengan aplikasi Expo Go di HP.
 🔌 API Endpoint (MockAPI.io)
 Contoh struktur data sensor yang digunakan:
 
-json
-Copy code
 {
   "id": "1",
   "temperature": 28.5,
@@ -106,8 +99,6 @@ Data sensor disimpan di state raw menggunakan useState().
 Setiap kali setRaw() dipanggil, tampilan otomatis diperbarui.
 
 🌐 Fetch API
-js
-Copy code
 const res = await fetch(API_URL);
 const json = await res.json();
 setRaw(json);
